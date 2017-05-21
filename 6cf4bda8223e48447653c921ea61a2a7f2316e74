@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "da86d52c_3e659d45",
+        "filename": "fs/ext4/super.c",
+        "patchSetId": 1
+      },
+      "lineNbr": 3903,
+      "author": {
+        "id": 3
+      },
+      "writtenOn": "2017-05-21T07:54:53Z",
+      "side": 1,
+      "message": "../../../../../../kernel/huawei/angler/fs/ext4/super.c: In function \u0027ext4_fill_super\u0027:\n../../../../../../kernel/huawei/angler/fs/ext4/super.c:3903:2: error: implicit declaration of function \u0027ext4_has_feature_meta_bg\u0027 [-Werror\u003dimplicit-function-declaration]\n  if (ext4_has_feature_meta_bg(sb)) {\n  ^\ncc1: some warnings being treated as errors\nmake[3]: *** [fs/ext4/super.o] Error 1\nmake[2]: *** [fs/ext4] Error 2\nmake[1]: *** [fs] Error 2\nmake[1]: *** Waiting for unfinished jobs....",
+      "range": {
+        "startLine": 3903,
+        "startChar": 0,
+        "endLine": 3903,
+        "endChar": 36
+      },
+      "revId": "6cf4bda8223e48447653c921ea61a2a7f2316e74",
+      "serverId": "9f904cbb-a964-4fab-a7dc-5cfc4d5c238b",
+      "unresolved": false
+    }
+  ]
+}
