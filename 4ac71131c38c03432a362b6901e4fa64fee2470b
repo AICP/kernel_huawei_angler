@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "da86d52c_de4d61c6",
+        "filename": "net/netfilter/x_tables.c",
+        "patchSetId": 1
+      },
+      "lineNbr": 681,
+      "author": {
+        "id": 3
+      },
+      "writtenOn": "2017-05-21T07:56:53Z",
+      "side": 1,
+      "message": "../../../../../../kernel/huawei/angler/net/netfilter/x_tables.c: In function \u0027xt_alloc_table_info\u0027:\n../../../../../../kernel/huawei/angler/net/netfilter/x_tables.c:681:6: error: \u0027sz\u0027 undeclared (first use in this function)\n  if (sz \u003c sizeof(*info))\n      ^\n../../../../../../kernel/huawei/angler/net/netfilter/x_tables.c:681:6: note: each undeclared identifier is reported only once for each function it appears in\n../../../../../../kernel/huawei/angler/net/netfilter/x_tables.c:681:19: error: \u0027info\u0027 undeclared (first use in this function)\n  if (sz \u003c sizeof(*info))\n                   ^\nmake[3]: *** [net/netfilter/x_tables.o] Error 1",
+      "range": {
+        "startLine": 681,
+        "startChar": 1,
+        "endLine": 681,
+        "endChar": 24
+      },
+      "revId": "4ac71131c38c03432a362b6901e4fa64fee2470b",
+      "serverId": "9f904cbb-a964-4fab-a7dc-5cfc4d5c238b",
+      "unresolved": false
+    }
+  ]
+}
