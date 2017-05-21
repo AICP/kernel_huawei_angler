@@ -1,0 +1,50 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "da86d52c_9e53e96b",
+        "filename": "net/ipv4/udp.c",
+        "patchSetId": 1
+      },
+      "lineNbr": 1250,
+      "author": {
+        "id": 3
+      },
+      "writtenOn": "2017-05-21T07:56:09Z",
+      "side": 1,
+      "message": "../../../../../../kernel/huawei/angler/net/ipv4/udp.c: In function \u0027udp_recvmsg\u0027:\n../../../../../../kernel/huawei/angler/net/ipv4/udp.c:1250:3: error: implicit declaration of function \u0027skb_copy_datagram_msg\u0027 [-Werror\u003dimplicit-function-declaration]\n   err \u003d skb_copy_datagram_msg(skb, sizeof(struct udphdr),\n   ^\ncc1: some warnings being treated as errors\nmake[3]: *** [net/ipv4/udp.o] Error 1",
+      "range": {
+        "startLine": 1250,
+        "startChar": 2,
+        "endLine": 1250,
+        "endChar": 57
+      },
+      "revId": "c04e70284e55d6db4790994c73704af4c6e0bf42",
+      "serverId": "9f904cbb-a964-4fab-a7dc-5cfc4d5c238b",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "da86d52c_7e5f1573",
+        "filename": "net/ipv6/udp.c",
+        "patchSetId": 1
+      },
+      "lineNbr": 411,
+      "author": {
+        "id": 3
+      },
+      "writtenOn": "2017-05-21T07:56:09Z",
+      "side": 1,
+      "message": "../../../../../../kernel/huawei/angler/net/ipv6/udp.c: In function \u0027udpv6_recvmsg\u0027:\n../../../../../../kernel/huawei/angler/net/ipv6/udp.c:411:3: error: implicit declaration of function \u0027skb_copy_datagram_msg\u0027 [-Werror\u003dimplicit-function-declaration]\n   err \u003d skb_copy_datagram_msg(skb, sizeof(struct udphdr),\n   ^\ncc1: some warnings being treated as errors\nmake[3]: *** [net/ipv6/udp.o] Error 1",
+      "range": {
+        "startLine": 411,
+        "startChar": 2,
+        "endLine": 411,
+        "endChar": 57
+      },
+      "revId": "c04e70284e55d6db4790994c73704af4c6e0bf42",
+      "serverId": "9f904cbb-a964-4fab-a7dc-5cfc4d5c238b",
+      "unresolved": false
+    }
+  ]
+}
