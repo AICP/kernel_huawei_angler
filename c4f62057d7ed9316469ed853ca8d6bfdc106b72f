@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "da86d52c_fef8654b",
+        "filename": "security/keys/key.c",
+        "patchSetId": 1
+      },
+      "lineNbr": 584,
+      "author": {
+        "id": 3
+      },
+      "writtenOn": "2017-05-21T09:02:16Z",
+      "side": 1,
+      "message": "../../../../../../kernel/huawei/angler/security/keys/key.c: In function \u0027key_reject_and_link\u0027:\n../../../../../../kernel/huawei/angler/security/keys/key.c:584:31: error: \u0027struct key\u0027 has no member named \u0027index_key\u0027\n   __key_link_end(keyring, \u0026key-\u003eindex_key, edit);\n                               ^\n../../../../../../kernel/huawei/angler/security/keys/key.c:584:44: error: \u0027edit\u0027 undeclared (first use in this function)\n   __key_link_end(keyring, \u0026key-\u003eindex_key, edit);\n                                            ^\n../../../../../../kernel/huawei/angler/security/keys/key.c:584:44: note: each undeclared identifier is reported only once for each function it appears in\nmake[3]: *** [security/keys/key.o] Error 1",
+      "range": {
+        "startLine": 584,
+        "startChar": 2,
+        "endLine": 584,
+        "endChar": 49
+      },
+      "revId": "c4f62057d7ed9316469ed853ca8d6bfdc106b72f",
+      "serverId": "9f904cbb-a964-4fab-a7dc-5cfc4d5c238b",
+      "unresolved": false
+    }
+  ]
+}
